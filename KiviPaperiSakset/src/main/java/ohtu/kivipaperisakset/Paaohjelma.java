@@ -8,12 +8,12 @@ public class Paaohjelma {
 
         OUTER:
         while (true) {
-            System.out.println("\nValitse pelataanko"
+            System.out.print("\nValitse pelataanko"
                     + "\n (a) ihmistä vastaan "
                     + "\n (b) tekoälyä vastaan"
                     + "\n (c) parannettua tekoälyä vastaan"
                     + "\nmuilla valinnoilla lopetetaan");
-            String valinta = IO.lueRivi().trim();            
+            String valinta = Skanneri.lueRivi().trim();            
             
             switch (valinta) {
                 case "a":

@@ -32,7 +32,7 @@ public abstract class Peli {
 
     private void peliKierros() {
         System.out.print("Ensimmäisen pelaajan siirto: ");
-        ekanSiirto = IO.lueRivi();
+        ekanSiirto = Skanneri.lueRivi();
         System.out.print("Toisen pelaajan siirto: ");
         tokanSiirto = tokanSiirto(ekanSiirto);
     }
